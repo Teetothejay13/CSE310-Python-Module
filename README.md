@@ -18,8 +18,7 @@
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
+* [Stack Overflow JSON Forum](https://stackoverflow.com/questions/32991069/python-checking-for-json-files-and-creating-one-if-needed)
 * [Web Site Name](http://url.link.goes.here)
 
 # Future Work
