@@ -1,0 +1,8 @@
+{
+    "Name": "Test Recipe",
+    "Ingredients": ["An endless stream of water", "24 nuggets of gold", "1 gram of plutonium"],
+    "Other Materials": ["Medium ceramic crucible", "heat resistant tongs"],
+    "Instructions": ["1) First, melt the gold down in the ceramic crucible until completely liquid.",
+    "2) Next, use the heat resistant tongs to place the plutonium into the molten gold.",
+    "3) Finally, pour water onto the molten gold/plutonium mixture until cool to the touch, and enjoy your cancerous meal!"]
+}
