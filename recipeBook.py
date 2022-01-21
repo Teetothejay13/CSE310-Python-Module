@@ -20,8 +20,9 @@ import json
 def main():
     # first, we need an input loop the user can quit from
     userInput = ""
-    print("Welcome to your personal recipe book!\n")
+    print("Welcome to your personal recipe book!")
     while userInput != "q":
+        print()
         print("Open a recipe (o)")
         print("Edit a recipe (e)")
         print("Create new recipe (n)")
@@ -39,7 +40,8 @@ def main():
                 display(contents)
         # if there is something wrong with the recipe, we want to be able to edit it and fix it
         elif userInput == "e":
-            pass
+            fileName = input("Please enter the name of the file you would like to edit: ")
+            editRecipe(fileName)
         # we don't want to have to manually create new json files, so we have a function to do that for us
         elif userInput == "n":
             newFileName = input("Please enter the name you would like to call the new file: ")
@@ -71,7 +73,7 @@ def readFile(fileName):
         
 # this function will allow the user to edit the recipe and save the changes
 def editRecipe(fileName):
-    pass
+    print("Function not implemented yet. If you would like to change a recipe, you must create a new recipe\nand delete the old one.")
 
 # this function will create a new recipe, whether called from readFile() or main()
 def createFile(newFileName):
