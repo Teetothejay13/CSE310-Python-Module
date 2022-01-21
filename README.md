@@ -6,9 +6,8 @@ In this program, I created a user input loop so that the user did not have to re
 
 I am an avid baker, so I came up with this idea of a digital recipe box while I was baking some banana bread (see the recipe included). It will come in handy when I am away from my physical copy of my recipes.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Recipe Book Program Demonstration](https://youtu.be/UsklABfjv9E)
 
 # Development Environment
 
@@ -21,11 +20,10 @@ a big text file would be annoying, so making each recipe a JSON file I can inter
 
 * [Stack Overflow JSON Forum](https://stackoverflow.com/questions/32991069/python-checking-for-json-files-and-creating-one-if-needed)
 * [Grepper JSON Dump to File](https://www.codegrepper.com/code-examples/javascript/json+dump+to+file)
-* [Web Site Name](http://url.link.goes.here)
+* [Stack Overflow Git Version Control](https://stackoverflow.com/questions/9335486/git-how-to-roll-back-to-last-push-commit)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Implement editRecipe() function
+* Add input checking methods, ensuring only valid inputs are accepted
+* Add a description functionality to the program and json files

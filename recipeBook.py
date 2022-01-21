@@ -12,7 +12,7 @@
 # 5. How long did it take for me to complete the assignment?
 #      
 
-# we'll need these
+# we'll need this
 import json
 
 
